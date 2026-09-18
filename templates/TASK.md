@@ -1,29 +1,42 @@
-# Task
+# Task / 任务
 
-## Objective
+## 1. Objective / 目标
+-
 
-## Context
+## 2. Context / 背景
+-
 
-## Requirements
+## 3. Requirements / 要求
+-
 
-## Files expected to change
+## 4. Files Expected to Change / 预计修改文件
+-
 
-## Implementation steps
+## 5. Dependencies / 依赖
+-
 
+## 6. Implementation Steps / 实现步骤
 1.
 2.
 3.
 
-## Tests
-
+## 7. Acceptance Criteria / 验收标准
 - [ ]
 
-## Verification
-
+## 8. Tests / 测试
 - [ ]
 
-## Risks
+## 9. Verification / 验证
+- [ ]
 
-## Definition of done
+## 10. Security / 安全
+- [ ]
 
+## 11. Financial / Regulatory Considerations / 金融与监管考虑
+- [ ]
+
+## 12. Risks / 风险
+-
+
+## 13. Definition of Done / 完成定义
 - [ ]
