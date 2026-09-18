@@ -56,39 +56,33 @@ Steps 7–10 execute and continuously improve that contract.
 
 ## 3. How to Start a New Project
 
+### The single startup file
+
+Use **[START_PROJECT.md](./START_PROJECT.md)** as the standard entry point.
+
+It contains the complete startup context and copy/paste prompt for an AI coding agent. This keeps the initial project-start instructions in one version-controlled file instead of leaving important context only in a chat conversation.
+
+The normal process is:
+
+1. Give the AI access to FinTech-Rules.
+2. Give the AI access to the target project repository.
+3. Give the AI the startup prompt from `START_PROJECT.md`.
+4. Let it complete Steps 1–6 of the Bootstrap Protocol.
+5. Review the proposed baseline.
+6. Approve or change it.
+7. Only then allow substantial implementation.
+
 ### Option A — Give the rules repository to your AI coding agent
 
 Make this repository available to the agent together with the project you want to build.
 
-Then give the agent a startup instruction such as:
+Then use the startup prompt in `START_PROJECT.md`.
 
-```text
-Bootstrap this project using FinTech-Rules.
-
-Do not start substantial implementation yet.
-
-Read the rules, inspect the repository, generate the bootstrap report and project discovery, identify unresolved questions, and guide me through the 10-step Project Bootstrap Protocol.
-
-Stop at the human approval gate before substantial implementation.
-```
-
-The important point is **not** to tell the AI the entire process every time. The process is encoded in `rules/90-ai-project-bootstrap.md`.
+The important point is **not** to tell the AI the entire process from memory every time. The process is version-controlled in this repository.
 
 ### Option B — Start from an empty repository
 
-For an empty repository, the AI should:
-
-1. load FinTech-Rules;
-2. inspect the empty repository;
-3. create the initial project documentation;
-4. ask discovery questions;
-5. create the Project Constitution;
-6. propose architecture;
-7. identify material decisions;
-8. create the initial task plan;
-9. wait for human approval;
-10. establish the development/testing/security baseline;
-11. begin the first small implementation task.
+For an empty repository, the AI should follow the same startup protocol. It should establish the project documentation and baseline before writing substantial application code.
 
 ## 4. What the AI Creates
 
